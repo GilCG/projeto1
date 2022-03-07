@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/cabecalho.css">
+<link rel="stylesheet" href="css/sobreNos.css">
+<link rel="stylesheet" href="css/apresentacao.css">
+<link rel="stylesheet" href="css/rodape.css">
+
+</head>
+<body>
+    <header class="cabecalho container">
+        <nav class="cabecalho__navegacao">
+            <ul>
+                <li class="cabecalho__link"><a href="#">Home</a></li>
+                <li class="cabecalho__link"><a href="#apresentacao-ancora">Conheça-nos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="sobreNos container">
+            <h1 class="sobreNos__titulo">Seja bem-vindo!</h1>
+            <p class="sobreNos__texto">Somos futuros desenvolvedores, graduandos do curso Análise e Desenvolvimento de Sistemas.</p>
+            <a href="#" class="sobreNos__botao botao">Conheça-nos!</a>
+        </section>
+        <section class="apresentacao_conheca-nos container" id="apresentacao-ancora">
+            <div class="apresentacao__perfil">
+                <h2>Gilciane Carvalho</h2>
+                <img class="apresentacao__imagemPerfil" src="imagens/perfilGil.jpeg" alt="Perfil Gilciane">
+                <p class="apresentacao__sobreMim">Olá, sou Gilciane, tenho 27 anos e estou cursando Análise e Desenvolvimento de Sistemas. Estou em transição de carreira e atualmente trabalho como Tester.</p>
+                <article class="contato">
+                    <p><a href="tel:92123456789" 
+                    class="contato-telefone">(92)12345-6789</a> ou <a href="mailto:gil@gmail.com" class="contato-email">
+                        gil@gmail.com</a></p>
+                </article>
+            </div>
+            <div class="apresentacao__perfil">
+                <h2></h2>
+                <img class="apresentacao__imagemPerfil" src="imagens/perfilGil.jpeg" alt="">
+                <p class="apresentacao__sobreMim"></p>
+                <article class="contato">
+                    <p><a href="tel:92123456789" 
+                    class="contato-telefone">(92)12345-6789</a> ou <a href="mailto:gil@gmail.com" class="contato-email">
+                        gil@gmail.com</a></p>
+                </article>
+            </div>
+            <div class="apresentacao__perfil">
+                <h2></h2>
+                <img class="apresentacao__imagemPerfil" src="imagens/perfilGil.jpeg" alt="">
+                <p class="apresentacao__sobreMim"></p>
+                <article class="contato">
+                    <p><a href="tel:92123456789" 
+                    class="contato-telefone">(92)12345-6789</a> ou <a href="mailto:gil@gmail.com" class="contato-email">
+                        gil@gmail.com</a></p>
+                </article>
+            </div>
+            <div class="apresentacao__perfil">
+                <h2></h2>
+                <img class="apresentacao__imagemPerfil"src="imagens/perfilGil.jpeg" alt="">
+                <p class="apresentacao__sobreMim"></p>
+                <article class="contato">
+                    <p><a href="tel:92123456789" 
+                    class="contato-telefone">(92)12345-6789</a> ou <a href="mailto:gil@gmail.com" class="contato-email">
+                        gil@gmail.com</a></p>
+                </article>
+                
+            </div>
+        </section>
+    </main>
+    <footer class="rodape container">
+        <nav>
+            <ul class="rodape__navegacao">
+                <li class="rodape__link"><a href="#">Home</a></li>
+                <li class="rodape__link"><a href="#apresentacao-ancora">Conheça-nos!</a></li>
+                
+            </ul>
+        </nav>
+    </footer>    
+</body>
+</html>
